@@ -236,14 +236,14 @@ p.social a.email {
 
 
 #page1 {
-  background: url('../img/contacAsesor.png') center center no-repeat;
+  background: url('../img/contacAsesor.svg') center center no-repeat;
   background-size: cover;
-  color: #144C87;
+  color: #31363A;
 }
 #page1 h1,
 #page1 h2,
 #page1 h3 {
-  color: #144C87;
+  color: #31363A;
 }
 #page1 p {
   font-size: 20px;
@@ -265,7 +265,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   height: auto;
 }
 #page2{
-  background-color: #448BCF;
+    background: linear-gradient(169deg,#0B3B63,#448BCF);
 }
 #page2 p{
   font-size: 16px;
@@ -279,17 +279,16 @@ body.disabled-onepage-scroll .onepage-wrapper section {
   color:#174A80;
 }
 #page5{
-  background-color: #1C2745;
+      background: linear-gradient(169deg,#141825,#1C2745);
 }
 #page5 p{
   font-size: 28px;
   color: white;
 }
 
-.resize{
+.top{
   margin-top: 60px;
-  height: 550px;
-  width: auto;
+
 }
 
 

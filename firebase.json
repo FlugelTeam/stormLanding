@@ -1,6 +1,6 @@
 {
   "firebase": "flugel",
-  "public": "C:\\\\Users\\\\David\\\\Dropbox\\\\codigo\\\\screen",
+  "public": "C:\\\\Users\\\\David\\\\Dropbox\\\\codigo\\\\FlugelStorm",
   "ignore": [
     "firebase.json",
     "**/.*",
