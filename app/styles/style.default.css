@@ -186,7 +186,7 @@ p.social a.email {
   border-color: rgba(231, 231, 231, 0);
 }
 #tf-menu a.navbar-brand {
-  background: url(../img/flugel1.png) no-repeat;
+  background: url(../images/flugel1.png) no-repeat;
   background-size:contain;
   display:block;
   height:64px !important;
@@ -204,7 +204,7 @@ p.social a.email {
   letter-spacing: 1px;
 }
 .viewing-page-1 #tf-menu a.navbar-brand{
-  background: url(../img/flugel.png) no-repeat;
+  background: url(../images/flugel.png) no-repeat;
   background-size:contain;
   display:block;
   height:64px !important;
@@ -236,7 +236,8 @@ p.social a.email {
 
 
 #page1 {
-  background: url('../img/contacAsesor.svg') center center no-repeat;
+  background: url('../images/contacAsesor.svg') center center no-repeat;
+  background: url('../svg/contacAsesor.svg') center center no-repeat;
   background-size: cover;
   color: #31363A;
 }

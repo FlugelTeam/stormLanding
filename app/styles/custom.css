@@ -1,0 +1,7 @@
+/* your styles go here */
+
+.page1 {
+  background: url('dist/svg/contacAsesor.svg') center center no-repeat;
+  background-size: cover;
+  color: #31363A;
+}
