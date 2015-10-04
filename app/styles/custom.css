@@ -5,3 +5,39 @@
   background-size: cover;
   color: #31363A;
 }
+
+@media (max-width: @screen-xs-max) {
+
+}
+@media(max-width: 991px) {
+  #page1{
+    background-position-x: -575px;
+  }
+  .firstp{
+    margin-top: 10em;
+    text-align: center;
+  }
+  #page2 p{
+    text-align: center;
+  }
+  .nodetext{
+        text-align: center;
+  }
+  .copyright p {
+  font-size:15px !important;
+  }
+}
+@media (min-width: 992px) {
+  .firstp{
+    font-size: 42px !important;
+  }
+  .nodetext{
+  margin-top:300px;
+}
+
+.copyright p {
+  font-size:15px !important;
+  margin-top:-70px;
+}
+
+}

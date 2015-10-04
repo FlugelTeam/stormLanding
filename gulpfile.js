@@ -9,10 +9,11 @@ var gulp = require('gulp')
     imagemin= require('gulp-imagemin')
     pngquant = require('imagemin-pngquant')
     clean = require('gulp-clean')
-    minifyCSS = require('gulp-minify-css');
-    inject = require('gulp-inject');
-    htmlmin = require('gulp-htmlmin');
-    streamqueue  = require('streamqueue');
+    minifyCSS = require('gulp-minify-css')
+    inject = require('gulp-inject')
+    htmlmin = require('gulp-htmlmin')
+    streamqueue  = require('streamqueue')
+    imageminSvgo = require('imagemin-svgo')
     svgmin = require('gulp-svgmin');
 
     var bases = {
@@ -56,7 +57,7 @@ gulp.task('minImg', ['clean'], function () {
 
 gulp.task('svgmin', ['clean'], function () {
     return gulp.src('app/images/*.svg')
-        .pipe(svgmin())
+        .pipe(imageminSvgo()())
         .pipe(gulp.dest(bases.dist + 'svg'));
 });
 

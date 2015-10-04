@@ -283,7 +283,7 @@ body.disabled-onepage-scroll .onepage-wrapper section {
       background: linear-gradient(169deg,#141825,#1C2745);
 }
 #page5 p{
-  font-size: 28px;
+  font-size: 1.750em;
   color: white;
 }
 
@@ -915,7 +915,7 @@ h1,
 }
 h2,
 .h2 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h3,
 .h3 {
