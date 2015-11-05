@@ -1,6 +1,6 @@
 {
   "firebase": "flugel",
-  "public": "C:\\Users\\David\\Documents\\villanueva\\min\\app",
+  "public": "C:\\\\Users\\\\David\\\\Flugel\\\\stormLanding\\\\app",
   "ignore": [
     "firebase.json",
     "**/.*",

@@ -76,6 +76,10 @@ aside {
     padding: 0;
 }
 
+.navbar-right {
+    margin-top: 6px;
+}
+
 .navbar-default {
     border-color: rgba(34,34,34,.05);
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
@@ -91,6 +95,8 @@ aside {
     font-weight: 700;
     color: #f05f40;
 }
+
+
 
 .navbar-default .navbar-header .navbar-brand:hover,
 .navbar-default .navbar-header .navbar-brand:focus {
@@ -195,7 +201,7 @@ aside {
 header {
     position: relative;
     width: 100%;
-    min-height: auto;
+    min-height: 100%;
     text-align: center;
     color: #FFF;
     background: url(../images/slide-1.3.svg) no-repeat;
@@ -254,15 +260,18 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
-@media(min-width:768px) {
+@media(max-width:768px) {
     header {
-        min-height: 100%;
+        height: 100%;
+        background-position: 61%;
+
     }
 
     header .header-content {
         position: absolute;
         top: 30%;
-        padding: 0 50px;
+        text-align: center;
+        padding: 0px;
         -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-50%);
@@ -272,6 +281,7 @@ header .header-content .header-content-inner p {
         margin-right: auto;
         margin-left: auto;
         max-width: 1000px;
+
     }
 
     header .header-content .header-content-inner p {
@@ -279,6 +289,22 @@ header .header-content .header-content-inner p {
         margin-left: auto;
         max-width: 80%;
         font-size: 18px;
+    }
+
+    header .section-heading{
+
+      margin-top: 10px;
+      font-size: 23px !important;
+
+    }
+
+    header .header-content a {
+        margin-top: 25px;
+    }
+
+    .service-box p {
+        margin-bottom: 0;
+        padding: 1em;
     }
 }
 
@@ -312,15 +338,21 @@ header .header-content .header-content-inner p {
 
 }
 
+.service-box p{
+  font-size: 0.9em;
+
+}
+
 @media(min-width:992px) {
     .service-box {
         margin: 20px auto 0;
-          padding: 5px;
+          padding: 14px;
     }
 }
 
 .service-box p {
     margin-bottom: 0;
+
 }
 
 .portfolio-box {
