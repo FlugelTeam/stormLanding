@@ -129,7 +129,7 @@ aside {
 
 @media(min-width:768px) {
     .navbar-default {
-        border-color: rgba(255,255,255,.3);
+        border-color: transparent;
         background-color: transparent;
     }
 
@@ -206,7 +206,7 @@ header {
     color: #FFF;
     background: url(../images/slide-1.3.svg) no-repeat;
     background-color: #CAEBFB;
-    background-position: center;
+    background-position: 75%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -263,13 +263,13 @@ header .header-content .header-content-inner p {
 @media(max-width:768px) {
     header {
         height: 100%;
-        background-position: 61%;
+        background-position: 94%;
 
     }
 
     header .header-content {
         position: absolute;
-        top: 30%;
+        top: 27%;
         text-align: center;
         padding: 0px;
         -webkit-transform: translateY(-50%);
@@ -293,8 +293,8 @@ header .header-content .header-content-inner p {
 
     header .section-heading{
 
-      margin-top: 10px;
-      /*font-size: 23px !important;*/
+      margin-top: 0px;
+      font-size: 26px !important;
 
     }
 
@@ -330,11 +330,12 @@ header .header-content .header-content-inner p {
 
 .service-box {
     background: white;
-    margin: 50px auto 0;
+    margin: 20px auto 0;
     max-width: 400px;
     box-shadow: 0 1px 5px 0 rgba(0,0,0,.2),0 2px 2px 0 rgba(0,0,0,.14),0 3px 1px -2px rgba(0,0,0,.12);
     height: 375px;
     border-radius: 4px;
+    padding: 15px;
 }
 
 .service-box p{
@@ -566,13 +567,14 @@ fieldset[disabled] .btn-primary.active {
 .btn {
     border: 0;
     border-radius: 300px;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
     font-weight: 700;
 }
 
 .btn-xl {
     padding: 15px 30px;
+    font-size: 17px;
 }
 
 ::-moz-selection {
