@@ -3,16 +3,16 @@
 
 //inicializando GULP
 
-var gulp = require('gulp')
-    uglify = require('gulp-uglify')
-    concat = require('gulp-concat')
-    imagemin= require('gulp-imagemin')
-    pngquant = require('imagemin-pngquant')
-    clean = require('gulp-clean')
-    minifyCSS = require('gulp-minify-css');
-    inject = require('gulp-inject');
-    htmlmin = require('gulp-htmlmin');
-    streamqueue  = require('streamqueue');
+var gulp = require('gulp'),
+    uglify = require('gulp-uglify'),
+    concat = require('gulp-concat'),
+    imagemin= require('gulp-imagemin'),
+    pngquant = require('imagemin-pngquant'),
+    clean = require('gulp-clean'),
+    minifyCSS = require('gulp-minify-css'),
+    inject = require('gulp-inject'),
+    htmlmin = require('gulp-htmlmin'),
+    streamqueue  = require('streamqueue'),
     svgmin = require('gulp-svgmin');
 
     var bases = {
