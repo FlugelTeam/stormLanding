@@ -260,10 +260,18 @@ header .header-content .header-content-inner p {
     color: rgba(255,255,255,.7);
 }
 
+@media(max-width: 450px) {
+    header {
+        height: 100%;
+        background-position: 99% 164% !important;
+        background-size: 223% 80% !important;
+    }
+}
+
 @media(max-width:768px) {
     header {
         height: 100%;
-        background-position: 94%;
+        background-position: 94% 23px;
 
     }
 
